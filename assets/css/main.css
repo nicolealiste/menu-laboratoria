@@ -22,6 +22,8 @@ nav{
 a{
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
+	display: inline-block;
+	text-align: center;
 	text-decoration: none;
 	border-right: 2px solid black;
 	padding: 20px 6%;
@@ -36,9 +38,18 @@ nav.flex-container{
 }
 
 a:hover{
-	color: #A9F5BC;
+	background: #A9F5BC;
+	color: #F5A9BC;
 }
 
 .btn-menu{
 	display: none;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.menu .link{
+	display: inline-block;
+
 }
