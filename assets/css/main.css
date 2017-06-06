@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container{
+	display : flex;
+}
+
+/*MENU*/
+
+nav{
+	padding: 0;	
+	background-color: #F5A9BC;	
+}
+
+a{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	border-right: 2px solid black;
+	padding: 20px 6%;
+	color: white;
+	cursor: pointer;
+}
+
+nav.flex-container{
+	flex-direction: row;
+	justify-content: space-around;
+}
+
