@@ -34,7 +34,6 @@ a{
 nav.flex-container{
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
 }
 
 a:hover{
@@ -53,3 +52,39 @@ a:hover{
 	display: inline-block;
 
 }
+
+/*mediaqueries*/
+@media screen and (max-width: 700px){
+	nav{
+		background-color: #1C1C1C;
+	}
+
+	a{
+		font-family: 'Merriweather', serif;
+		display: inline-block;
+		text-align: left;
+		align-items: left;
+		text-decoration: none;
+		border-right: none;
+		border-bottom: 2px solid black;
+		justify-content: space-between;
+		color: white;
+		cursor: pointer;
+	}
+
+	header .menu.flex-container{
+		flex-direction: column;
+		text-align: left;
+		width: 100%;
+
+	}
+
+	header .btn-menu{
+		background-color: #1C1C1C;
+		display: inline-block;
+		color: white;
+		width: 100%;
+		text-align: left;
+	}
+}
+
